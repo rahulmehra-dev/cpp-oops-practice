@@ -3,7 +3,7 @@
 // Description: Demonstrates creation of class, object, and member function.
 
 #include <iostream>
-#include <string.h>
+#include <string>
 
 using namespace std;
 
@@ -15,8 +15,8 @@ public:
 
     void display()
     {
-        cout<<"Id is: "<<id<<"\n";
-        cout<<"Name is: "<<name<<"\n";
+        cout << "Id: " << id << endl;
+        cout << "Name: " << name << endl;
     }
 };
 
