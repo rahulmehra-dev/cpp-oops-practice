@@ -1,6 +1,6 @@
-// Program: Basic class and object example
-// Concept: Class and Object in C++
-// Description: Demonstrates creation of class, object, and member function.
+// Program: Basic class and object example using constructor
+// Concept: Class, Object, and Constructor in C++
+// Description: Demonstrates initialization using parameterized constructor.
 
 #include <iostream>
 #include <string>
@@ -13,19 +13,23 @@ public:
     int id;
     string name;
 
+    // Constructor
+    Student(int i, string n)
+    {
+        id = i;
+        name = n;
+    }
+
     void display()
     {
-        cout << "Id: " << id << endl;
+        cout << "ID: " << id << endl;
         cout << "Name: " << name << endl;
     }
 };
 
 int main()
 {
-    Student s;
-
-    s.name = "Rahul";
-    s.id = 44;
+    Student s(44, "Rahul"); //constructor call
 
     s.display();
 
