@@ -50,14 +50,17 @@ public:
 
 int main()
 {
+    // Using base class pointer to demonstrate runtime polymorphism
     Shape *s;
 
     Circle c(5);
     Rectangle r(3, 4);
 
+    // Pointer now points to Circle object
     s = &c;
     s->area();
 
+    // Pointer now points to Rectangle object
     s = &r;
     s->area();
 
