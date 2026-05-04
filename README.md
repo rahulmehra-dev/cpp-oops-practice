@@ -2,3 +2,5 @@
 C++ OOP concepts, practice programs, and problem-solving.
 ## Update
 Revised inheritance and runtime polymorphism concepts. Focused on understanding virtual functions and base pointer behavior.
+Revised access specifiers and OOP concepts (inheritance, polymorphism).
+Focused on understanding instead of coding today.
